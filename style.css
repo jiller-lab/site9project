@@ -1,22 +1,36 @@
-/* Enable word wrapping */
-word-wrap: break-word;
-word-break: break-word;
-overflow-wrap: break-word;
-
-/* Center text on image to the right */
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
+.shapka {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    flex-wrap: wrap;    
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-    font-size: 48px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    border-radius: 10px;
+.halflife {
+    display: flex;
+    border: 5px dotted darkblue;
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.halflife img {
+    width: 250px;
+}
+
+.exit8 {
+    display: flex;
+    border: 5px dotted darkblue;
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.exit8 img {
+    width: 250px;
 }

@@ -5,7 +5,7 @@
     flex-wrap: wrap;    
 }
 
-.halflife {
+.book {
     display: flex;
     border: 5px dotted darkblue;
     background-color: blue;
@@ -17,11 +17,11 @@
     padding: 50px;
 }
 
-.halflife img {
+.book img {
     width: 250px;
 }
 
-.exit8 {
+.book2 {
     display: flex;
     border: 5px dotted darkblue;
     background-color: blue;
@@ -33,7 +33,7 @@
     padding: 50px;
 }
 
-.exit8 img {
+.book2 img {
     width: 250px;
 }
 
@@ -44,12 +44,40 @@
     padding: 10px;
 }
 
-.exit8 h1 {
+.book2 h1 {
     display: flex;
     justify-content: center;
     padding-left: 50px;
 }
 
-.halflife h1 {
+.book h1 {
     padding-left: 50px;
+}
+
+.shapkaimg {
+    display: flex;
+    justify-content: center;
+}    
+
+.wishlistprod {
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid greenyellow;
+    background-color: red;
+    color: white;
+    font-family: monospace;
+}
+
+main section {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    size: 100px;
 }

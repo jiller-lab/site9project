@@ -81,3 +81,9 @@ main section {
     color: white;
     size: 100px;
 }
+
+.reccomend {
+    display: flex;
+    text-align: center;
+    font-family: monospace;
+}

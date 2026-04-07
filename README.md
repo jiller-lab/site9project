@@ -10,3 +10,6 @@ https://www.figma.com/design/9xISXH69vwQJCATW5ebwOH/Untitled?node-id=3-2&t=YJ2mp
 
 
 UPD 07.04.2026: Добавлена анимация ссылкам
+
+
+Жду новой темы, чтобы обновить сайт :3

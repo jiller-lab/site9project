@@ -87,3 +87,16 @@ main section {
     text-align: center;
     font-family: monospace;
 }
+
+a:hover {
+    color: greenyellow;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:focus {
+    background-color: black;
+    color: white;
+}

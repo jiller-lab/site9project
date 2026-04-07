@@ -4,27 +4,34 @@
         <link rel="stylesheet" href="style.css">
     </head>    
     <body>
-        <header>
+        <header id="top">
             <div class="shapkaimg">
             <img src="https://img.freepik.com/premium-vector/pile-books-with-colorful-covers-glasses-science-hobby-education-concept-cartoon-vector-illustration_178650-71555.jpg">
             </div>
             <h1 class="shapka">Breader Reviews</h1>
             <h2 class="shapka">Привет! Здесь я пишу обзоры на книги. Информация всегда обновляется! Не забывайте заходить, возможно вы захотели бы эти книги:</h2>
+            <div class="navigation">
+            <nav>
+                <a href="#reviews">Обзоры</a>
+                <a href="#favourite">Желаемое</a>
+                <a href="#reccomend">Порекомендовать книгу</a>
+            </nav>
+            </div>        
         </header>
         <main>
-            <section class="book">
+            <section id="reviews" class="book">
                 <img src="https://content.img-gorod.ru/pim/products/images/16/29/018f5f4b-dc48-7666-81b7-9afae98f1629.jpg?width=4096&height=2238">
                 <h1>Half-Life. Как Valve создала культовый шутер от первого лица</h1>
                 <h1>(В стадии прочтения) Я люблю Half-Life, и не только его. Я люблю Portal, Team Fortress, ну и раз уж курс пошёл на Valve, то и Steam Deck</h1>
                 <a href="https://www.chitai-gorod.ru/product/half-life-kak-valve-sozdala-kultovyy-shuter-ot-pervogo-lica-3001534" class="link">Читать</a>   
             </section>
-            <section class="book2">
+            <section class="book">
                 <img src="https://content.img-gorod.ru/pim/products/images/5e/f9/019c76ff-16b7-78e0-85a0-58bc62b95ef9.jpg?width=4096&height=2238">
                 <h1>Выход 8. Одно решение может изменить все</h1>
                 <h1>(Предзаказ. В пути) Я не играл в Выход 8, но я смотрел геймплей, фильм даже. И это прям психодел, как Удивительный Цифровой Цирк</h1>
                 <a href="https://www.chitai-gorod.ru/product/vyhod-8-odno-resenie-mozet-izmenit-vse-3142668" class="link">Читать</a>    
             </section>
-            <h1 class="shapka">Хотелось бы прочитать:</h1>
+            <h1 id="favourite" class="shapka">Хотелось бы прочитать:</h1>
                 <section>
             <article class="wishlistprod">
                 <img src="https://content.img-gorod.ru/pim/products/images/a8/72/01951ca0-5a14-7e84-8fa5-759e2e96a872.jpg?width=4096&height=2238" width="300px"/><br/>
@@ -112,7 +119,7 @@
                 <a href="https://www.chitai-gorod.ru/product/ceburaska-2-oficial-naa-novellizacia-3138527" class="link">Читать</a> 
             </article>      
                 </section>
-            <h1 class="reccomend">Порекомендовать книгу можно вот тут:</h1>
+            <h1 id="reccomend" class="reccomend">Порекомендовать книгу можно вот тут:</h1>
             <a href="https://t.me/breader61"><img src="https://static.vecteezy.com/system/resources/previews/042/148/648/large_2x/telegram-logo-telegram-social-media-icon-free-png.png" width="300"></a>
         </main>
         <footer class="podval">
@@ -120,6 +127,9 @@
             <h2>Спасибо Microsoft за Visual Studio Code, и Сберу за неработающий Gigacode :)</Code></h2>
             <h3>© 2026 Breader</h3>
             <h4>Создано для Алгоритмики</h4>
+            <nav>
+                <a href="#top">Наверх</a>
+            </nav>
         </footer>
     </body>
 </html>

@@ -1,6 +1,7 @@
 # site9project
 
 Figma:
+
 https://www.figma.com/design/9xISXH69vwQJCATW5ebwOH/Untitled?node-id=0-1&t=zS6NPugpy5LoXNwa-1
 
 Проект в Figma может не соответствовать сайту, так как информация постоянно обновляется
@@ -8,6 +9,7 @@ https://www.figma.com/design/9xISXH69vwQJCATW5ebwOH/Untitled?node-id=0-1&t=zS6NP
 Жду новой темы, чтобы обновить сайт :3
 
 Цветовая схема:
+
 https://colorscheme.ru/#3I11Tw0w0w0w0
 
 UPD 07.04.26:

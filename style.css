@@ -111,3 +111,9 @@ nav a {
     display: flex;
     justify-content: center;
 }
+
+.book h3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
